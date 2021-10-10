@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #ccc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: navy;
+  height: 100%;
+}
+
+.svg {
+  display: flex;
+}
+
+@keyframes pulse {
+  0% {
+  }
+  100% {
+    transform-origin: 50%;
+    transform: scale(1.4);
+  }
+}
+
+.anim {
+  animation: pulse 1s alternate infinite;
+}
+/*# sourceMappingURL=style.css.map */
